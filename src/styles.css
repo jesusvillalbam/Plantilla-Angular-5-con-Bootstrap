@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+#sidebar {
+    min-width: 200px;
+    background-color:#2c3b41;
+}
+
+#sidebar a {
+    color: #fff;
+}
+
+.nav-link[data-toggle].collapsed:after {
+    content: "▾";
+}
+.nav-link[data-toggle]:not(.collapsed):after {
+    content: "▴";
+}
